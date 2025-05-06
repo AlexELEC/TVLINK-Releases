@@ -1,0 +1,24 @@
+#!/bin/sh /etc/rc.common
+
+# SPDX-License-Identifier: GPL-2.0
+# Copyright (C) 2011-present Alex@ELEC (http://alexelec.github.io/)
+
+START=99
+STOP=12
+USE_PROCD=1
+
+start_service() {
+	procd_open_instance tvlink
+	procd_set_param command /opt/tvlink/tvlink
+
+	procd_set_param respawn
+
+	procd_set_param limits nofile="16384 16384"
+	procd_set_param stdout 0
+	procd_set_param stderr 0
+	procd_close_instance
+}
+
+stop_service() {
+	rm -f /run/tvlink
+}
