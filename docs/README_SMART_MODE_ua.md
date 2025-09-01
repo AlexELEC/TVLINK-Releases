@@ -39,7 +39,7 @@
 
 Не лякайтесь слова «сегмент»: це один маленький відеофайл.  
 Якщо сказано «частка тривалості сегмента 0.5» і сам сегмент 6 секунд — значить приблизно 3 секунди очікування.
-Зазначені нижче змінні знаходяться у файлі «tvlink/libs/streamlink/stream/hls/hls.py».
+Зазначені нижче змінні знаходяться у файлі «[tvlink/libs/streamlink/stream/hls/hls.py](https://github.com/AlexELEC/TVLINK-x86_64-Ubuntu/blob/master/libs/streamlink/stream/hls/hls.py#L455-L504)».
 
 ---
 
@@ -292,7 +292,7 @@
 Щоб можна було балансувати між “швидко показати” і “не перевантажити сервер”.
 
 **Якщо щось зламав?**  
-Поверніть значення за замовчуванням (із цього файлу: «tvlink/libs/streamlink/stream/hls/hls.py»).
+Поверніть значення за замовчуванням (із цього файлу: «[tvlink/libs/streamlink/stream/hls/hls.py](https://github.com/AlexELEC/TVLINK-x86_64-Ubuntu/blob/master/libs/streamlink/stream/hls/hls.py#L455-L504)»).
 
 **Replay — це не «обман»?**  
 Ні, ми просто повторюємо вже завантажений сегмент, щоб екран не завмер.

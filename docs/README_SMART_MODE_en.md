@@ -39,7 +39,7 @@ For each setting below:
 
 Don’t be scared by the word “segment”: it’s one small video file.  
 If it says “fraction of segment duration 0.5” and the segment is 6 seconds — that means about 3 seconds of waiting.
-The variables below are located in file “tvlink/libs/streamlink/stream/hls/hls.py”.
+The variables below are located in file “[tvlink/libs/streamlink/stream/hls/hls.py](https://github.com/AlexELEC/TVLINK-x86_64-Ubuntu/blob/master/libs/streamlink/stream/hls/hls.py#L455-L504)”.
 
 ---
 
@@ -292,7 +292,7 @@ Yes. This is a safe universal set.
 To balance between “show it fast” and “don’t overload the server”.
 
 **If I broke something?**  
-Restore defaults (from this file: “tvlink/libs/streamlink/stream/hls/hls.py”).
+Restore defaults (from this file: “[tvlink/libs/streamlink/stream/hls/hls.py](https://github.com/AlexELEC/TVLINK-x86_64-Ubuntu/blob/master/libs/streamlink/stream/hls/hls.py#L455-L504)”).
 
 **Is Replay a “trick”?**  
 No, we simply re-show the already downloaded segment so your screen doesn’t freeze.
