@@ -37,7 +37,6 @@ use «PVR TVLINK Client» for Kodi.
 «TVLINK» <a target='_blank' href="https://github.com/AlexELEC/TVLINK-Releases/releases">releases</a> are compiled only for «Linux». The following architectures are supported:
 
 + x86-64
-+ arm7
 + aarch64
 
 The program does not require many resources. For example, when serving two clients, it occupies an average
